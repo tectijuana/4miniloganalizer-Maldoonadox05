@@ -7,10 +7,10 @@ tres errores consecutivos (4xx o 5xx). Si se detectan, imprime
 una alerta. Si no, imprime que no hubo patrón.
 
 ## Lógica utilizada
-- Se usa un contador `x19` para errores consecutivos
+- Se usa un contador x19 para errores consecutivos
 - Si el código es 4xx o 5xx: se incrementa el contador
 - Si el código es 2xx: se reinicia el contador a 0
-- Si el contador llega a 3: se activa la bandera `x20 = 1`
+- Si el contador llega a 3: se activa la bandera x20 = 1
 - Al terminar la lectura se imprime el resultado
 
 ## Registros ARM64 utilizados
@@ -20,13 +20,11 @@ una alerta. Si no, imprime que no hubo patrón.
 - x23: indica si hay dígitos acumulados
 
 ## Compilación
-```bash
 make
-```
 
 ## Ejecución
-```bash
 cat data/logs_D.txt | ./analyzer
-```
 
 ## Evidencia de ejecución
+=== Mini Cloud Log Analyzer - Variante D ===
+[ALERTA] Se detectaron 3 errores consecutivos!
