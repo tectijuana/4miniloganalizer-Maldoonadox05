@@ -1,0 +1,12 @@
+{"version": 2, "width": 210, "height": 42, "timestamp": 1776932272, "env": {"SHELL": "/bin/bash", "TERM": "xterm"}}
+[0.019725, "o", "\u001b[?2004h\u001b]0;ubuntu@ip-172-31-45-158: ~/4miniloganalizer-Maldoonadox05/cloud-log-analyzer\u0007ubuntu@ip-172-31-45-158:~/4miniloganalizer-Maldoonadox05/cloud-log-analyzer$ "]
+[6.994915, "o", "\u001b[7mmake\u001b[27m"]
+[8.073522, "o", "\b\b\b\bmake\r\n\u001b[?2004l\r"]
+[8.076967, "o", "make: Nothing to be done for 'all'.\r\n"]
+[8.07765, "o", "\u001b[?2004h\u001b]0;ubuntu@ip-172-31-45-158: ~/4miniloganalizer-Maldoonadox05/cloud-log-analyzer\u0007ubuntu@ip-172-31-45-158:~/4miniloganalizer-Maldoonadox05/cloud-log-analyzer$ "]
+[14.144288, "o", "\u001b[7mcat data/logs_D.txt | ./analyzer\u001b[27m"]
+[17.180247, "o", "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bcat data/logs_D.txt | ./analyzer\r\n\u001b[?2004l\r"]
+[17.182146, "o", "=== Mini Cloud Log Analyzer - Variante D ===\r\n[ALERTA] Se detectaron 3 errores consecutivos!\r\n"]
+[17.18243, "o", "\u001b[?2004h\u001b]0;ubuntu@ip-172-31-45-158: ~/4miniloganalizer-Maldoonadox05/cloud-log-analyzer\u0007ubuntu@ip-172-31-45-158:~/4miniloganalizer-Maldoonadox05/cloud-log-analyzer$ "]
+[28.873352, "o", "\u001b[7mexit\u001b[27m"]
+[29.687933, "o", "\b\b\b\bexit\r\n\u001b[?2004l\rexit\r\n"]
